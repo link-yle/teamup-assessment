@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+@import './typography.scss';
+
+* {
+  @apply m-0 p-0;
+
+  box-sizing: 'border-box';
+}
+
+body {
+  @apply font-sans w-full h-full bg-gray-100;
+}
+
+#app {
+  @apply flex flex-col items-center;
+}
+
+button, input {
+  @apply py-7px px-13px rounded border border-gray-200;
+}
+
+input {
+  @apply w-56px h-38px mx-2 text-gray-600;
+}
